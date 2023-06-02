@@ -1,7 +1,9 @@
+import Banner from "./components/Banner"
+
 function App() {
-  return (
-    <h1>Olá</h1>
-  )
+	return (
+		<Banner />
+	)
 }
 
 export default App
