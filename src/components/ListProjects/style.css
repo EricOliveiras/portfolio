@@ -1,0 +1,6 @@
+.list-project {
+	width: 70vw;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
