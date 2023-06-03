@@ -1,0 +1,13 @@
+.projects {
+  width: 100vw;
+	height: 70vh;
+	background-color: #f5e3ae;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#title {
+	margin-top: 15px;
+	text-transform: uppercase;
+}
