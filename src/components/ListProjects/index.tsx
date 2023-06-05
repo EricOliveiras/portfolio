@@ -1,16 +1,31 @@
 import Project from '../Project'
 
+import { dataProjects } from '../../data/projects'
+
 import './style.css'
 
 const ListProjects = () => {
   return (
     <div className="list-project">
-			<Project
-				key={1}
-				name='Biopark teste'
-				about='Projeto desenvolvido para teste trainne na empresa Biopark.'
-				link='https://github.com/EricOliveiras/biopark-teste'
-			/>
+			{!dataProjects ? 
+				(
+					<p>Nada por aqui!</p>
+				) : 
+				(
+					dataProjects.map((project, index) => {
+						const { name, about, link } = project
+
+						return (
+							<Project
+								key={index}
+								name={name}
+								about={about}
+								link={link}
+							/>
+						)
+					})
+				)
+			}
     </div>
   )
 }
