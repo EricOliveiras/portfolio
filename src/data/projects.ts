@@ -1,0 +1,18 @@
+type project = {
+	name: string;
+	about: string;
+	link: string;
+}
+
+export const dataProjects: project[] = [
+  {
+    name: 'Biopark teste',
+    about: 'Projeto desenvolvido para teste trainne na empresa Biopark.',
+    link: 'https://github.com/EricOliveiras/biopark-teste'
+  },
+  {
+    name: 'To Do List',
+    about: 'Uma lista de tarefas feita com ReactJs e Typescript.',
+    link: 'https://lista-de-tarefas-silk.vercel.app/'
+  }
+]
