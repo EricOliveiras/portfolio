@@ -4,3 +4,9 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
+@media (max-width: 640px) {
+	.list-project {
+		width: 100vw;
+	}
+}
