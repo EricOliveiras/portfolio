@@ -14,5 +14,10 @@ export const dataProjects: project[] = [
     name: 'To Do List',
     about: 'Uma lista de tarefas feita com ReactJs e Typescript.',
     link: 'https://lista-de-tarefas-silk.vercel.app/'
+  },
+  {
+    name: 'My Fav Games',
+    about: 'Uma rede social para gamers',
+    link: 'https://github.com/EricOliveiras/myfavgames'
   }
 ]
