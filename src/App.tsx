@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 import Projects from "./components/Projects"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<>
 			<Banner />
 			<Projects />
+			<Footer />
 		</>
 	)
 }
