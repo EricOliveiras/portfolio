@@ -22,7 +22,7 @@ export const dataProjects: project[] = [
   },
   {
     name: 'Basic CRUD Golang',
-    about: 'Colocando em prático meus estudos em Golang',
+    about: 'Colocando em prática meus estudos em Golang',
     link: 'https://github.com/EricOliveiras/basic-crud-go'
   }
 ]
