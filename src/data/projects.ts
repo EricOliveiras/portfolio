@@ -19,5 +19,10 @@ export const dataProjects: project[] = [
     name: 'My Fav Games',
     about: 'Uma rede social para gamers',
     link: 'https://github.com/EricOliveiras/myfavgames'
+  },
+  {
+    name: 'Basic CRUD Golang',
+    about: 'Colocando em prático meus estudos em Golang',
+    link: 'https://github.com/EricOliveiras/basic-crud-go'
   }
 ]
