@@ -27,7 +27,7 @@ export const dataProjects: project[] = [
   },
   {
     name: 'Mentor Cycle',
-    about: 'Projeto de um site de mentorias do qual participo como backend',
+    about: 'Projeto de um site de mentorias do qual participo como desenvolvedor backend',
     link: 'https://github.com/Mentor-Cycle/mentor-cycle-be'
   }
 ]
