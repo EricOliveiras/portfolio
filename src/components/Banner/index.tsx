@@ -31,7 +31,7 @@ const Banner = () => {
             </a>
           </div>
       </div>
-      <h1 className='title'>Desenvolvedor Web</h1>
+      <h1 className='title'>Desenvolvedor Backend</h1>
     </div>
   )
 }
