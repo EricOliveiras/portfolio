@@ -24,7 +24,7 @@ const Banner = () => {
           </div>
           <div className="icon">
             <a 
-              href="/EricDevCurriculo.pdf"
+              href="/EricDevResume.pdf"
               download
             >
               <FiFileText />
